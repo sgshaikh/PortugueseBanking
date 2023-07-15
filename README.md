@@ -3,6 +3,7 @@ Python Code Link:https://github.com/sgshaikh/PortugueseBanking/blob/main/Portugu
 
 
 1) Business Problem
+
 A Portuguese banking institution has data on its existing customers. The objective is to use data collected on customer demographics, previous campaign interactions and existing accounts with the bank to predict if the customer will subscribe to a term deposit
 
 The bank will want to determine if it is worthwhile to spend money and resources on trying to sell a banking product to the client. Having a model with high ROC can be very profitable for the bank.
@@ -13,7 +14,9 @@ The bank will want to determine if it is worthwhile to spend money and resources
 The features of the dataset can be devised into several  categories:
 
 Demographics of the banking client: Age, Job, Marital Status, Education Level
+
 Credit Information of the banking client: Has defaulted in the past, has a home loan, Has a personal loan
+
 Features about previous marketing outreach: contact type, contact day/month/date/duration, # of previous contacts, outcome of previous contact
  
 
@@ -29,13 +32,19 @@ A pair plot yielded some information about the relationship between features. No
 After comparing SVM, KNN, Logistic Regression and Decision Trees by using GridSearchCV to tune their hyper parameters the best model came out to be:
 
 LogisticRegression
+
 C (regularization strength): 1
+
 penalty: 'l2'
 
 Model Performance for the best model is
+
 Test Precision: 0.3325942350332594
+
 Test Recall: 0.6474820143884892
+
 Test ROC AUC Score: 0.7811787899996744
+
 
 
 

@@ -25,6 +25,7 @@ A pair plot yielded some information about the relationship between features. No
 
 
 3) Findings from the comparison of different models
+
 After comparing SVM, KNN, Logistic Regression and Decision Trees by using GridSearchCV to tune their hyper parameters the best model came out to be:
 
 LogisticRegression
@@ -39,6 +40,7 @@ Test ROC AUC Score: 0.7811787899996744
 
 
 4) Next steps and recommendations 
+
 Since the variable being predicted is highly skewed, logistic regression performed really well. Since it can cost a lot of money for the bank to do an outreach to a customer, as next steps I would tune the features to increase the precision of the model. 
 
 Since this is a regression model, the output probabilities can be looked at and a cut off can be determined based on cost of outreach to find the appropriate number of customers to do outreach.
